@@ -1,0 +1,32 @@
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 43e4e2d..8c5c721 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -8,7 +8,10 @@[m
+         <meta name="description" content="Blocks Website">[m
+         <link rel="stylesheet" href="styles/main.css">[m
+     </head>[m
+[32m+[m[41m    [m
+[32m+[m[41m    [m
+     <body background="images/bg.png">[m
+[32m+[m[32m        <-- >all links on navigation bar</-->[m
+ <ul id="nav">[m
+     <li><a href="index.html">Home</a></li>[m
+     <li><a href="Chat/index.php">Chat</a></li>[m
+[36m@@ -16,6 +19,7 @@[m
+ 	<li><a href="http://www.blockscommunity.tk">Forum</a></li>[m
+ 	<li><a href="contact_page.html">Contact</a></li>[m
+ </ul>[m
+[32m+[m[32m        <-->Wrapper and content on the website</-->[m
+      <div class="wrapper">[m
+          <p><br /><br /><br /><br />Block's Website is a website designed for schools it has many useful links and some normal or fun links for people that are bored this website is made by a 13 year old boy named Piotr and is still in development i hope you enjoy this website and bye bye.</p>[m
+     </div>[m
+[36m@@ -23,7 +27,7 @@[m
+         <div class='contentFake'></div>[m
+ 		<div class='footer'>[m
+ 			<div class='footerContent'>[m
+[31m-				Visit us at <a href='http://www.sourcecodester.com'>http://www.sourcecodester.com</a>.[m
+[32m+[m[32m                <p>Made by blocks team and blocks designers..</p>[m
+ 			</div>[m
+             <div id="space"></div>[m
+ 		</div>[m
