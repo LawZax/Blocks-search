@@ -1,0 +1,762 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, .hppage .divider, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font: inherit; font-size: 100%; vertical-align: baseline; }
+
+html { line-height: 1; }
+
+ol, ul { list-style: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+caption, th, td { text-align: left; font-weight: normal; vertical-align: middle; }
+
+q, blockquote { quotes: none; }
+q:before, q:after, blockquote:before, blockquote:after { content: ""; content: none; }
+
+a img, .hppage .divider img { border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary { display: block; }
+
+
+
+.flags-sprite, .flags-ad, .flags-ae, .flags-af, .flags-ag, .flags-ai, .flags-al, .flags-am, .flags-an, .flags-ao, .flags-ar, .flags-as, .flags-at, .flags-au, .flags-aw, .flags-ax, .flags-az, .flags-ba, .flags-bb, .flags-bd, .flags-be, .flags-bf, .flags-bg, .flags-bh, .flags-bi, .flags-bj, .flags-bm, .flags-bn, .flags-bo, .flags-br, .flags-bs, .flags-bt, .flags-bv, .flags-bw, .flags-by, .flags-bz, .flags-ca, .flags-catalonia, .flags-cc, .flags-cd, .flags-cf, .flags-cg, .flags-ch, .flags-ci, .flags-ck, .flags-cl, .flags-cm, .flags-cn, .flags-co, .flags-cr, .flags-cs, .flags-cu, .flags-cv, .flags-cx, .flags-cy, .flags-cz, .flags-de, .flags-dj, .flags-dk, .flags-dm, .flags-do, .flags-dz, .flags-ec, .flags-ee, .flags-eg, .flags-eh, .flags-england, .flags-er, .flags-es, .flags-et, .flags-europeanunion, .flags-fam, .flags-fi, .flags-fj, .flags-fk, .flags-fm, .flags-fo, .flags-fr, .flags-ga, .flags-gb, .flags-gd, .flags-ge, .flags-gf, .flags-gh, .flags-gi, .flags-gl, .flags-gm, .flags-gn, .flags-gp, .flags-gq, .flags-gr, .flags-gs, .flags-gt, .flags-gu, .flags-gw, .flags-gy, .flags-hk, .flags-hm, .flags-hn, .flags-hr, .flags-ht, .flags-hu, .flags-id, .flags-ie, .flags-il, .flags-in, .flags-io, .flags-iq, .flags-ir, .flags-is, .flags-it, .flags-jm, .flags-jo, .flags-jp, .flags-ke, .flags-kg, .flags-kh, .flags-ki, .flags-km, .flags-kn, .flags-kp, .flags-kr, .flags-kw, .flags-ky, .flags-kz, .flags-la, .flags-lb, .flags-lc, .flags-li, .flags-lk, .flags-lr, .flags-ls, .flags-lt, .flags-lu, .flags-lv, .flags-ly, .flags-ma, .flags-mc, .flags-md, .flags-me, .flags-mg, .flags-mh, .flags-mk, .flags-ml, .flags-mm, .flags-mn, .flags-mo, .flags-mp, .flags-mq, .flags-mr, .flags-ms, .flags-mt, .flags-mu, .flags-mv, .flags-mw, .flags-mx, .flags-my, .flags-mz, .flags-na, .flags-nc, .flags-ne, .flags-nf, .flags-ng, .flags-ni, .flags-nl, .flags-no, .flags-np, .flags-nr, .flags-nu, .flags-nz, .flags-om, .flags-pa, .flags-pe, .flags-pf, .flags-pg, .flags-ph, .flags-pk, .flags-pl, .flags-pm, .flags-pn, .flags-pr, .flags-ps, .flags-pt, .flags-pw, .flags-py, .flags-qa, .flags-re, .flags-ro, .flags-rs, .flags-ru, .flags-rw, .flags-sa, .flags-sb, .flags-sc, .flags-scotland, .flags-sd, .flags-se, .flags-sg, .flags-sh, .flags-si, .flags-sj, .flags-sk, .flags-sl, .flags-sm, .flags-sn, .flags-so, .flags-sr, .flags-st, .flags-sv, .flags-sy, .flags-sz, .flags-tc, .flags-td, .flags-tf, .flags-tg, .flags-th, .flags-tj, .flags-tk, .flags-tl, .flags-tm, .flags-tn, .flags-to, .flags-tr, .flags-tt, .flags-tv, .flags-tw, .flags-tz, .flags-ua, .flags-ug, .flags-uk, .flags-um, .flags-us, .flags-uy, .flags-uz, .flags-va, .flags-vc, .flags-ve, .flags-vg, .flags-vi, .flags-vn, .flags-vu, .flags-wales, .flags-wf, .flags-ws, .flags-xa, .flags-ye, .flags-yt, .flags-za, .flags-zm, .flags-zw { background: url('images/flags-s55a37747fa.png') no-repeat; }
+
+.flags-ad { background-position: 0 -198px; }
+
+.flags-ae { background-position: 0 -2663px; }
+
+.flags-af { background-position: 0 -550px; }
+
+.flags-ag { background-position: 0 -737px; }
+
+.flags-ai { background-position: 0 -209px; }
+
+.flags-al { background-position: 0 -594px; }
+
+.flags-am { background-position: 0 -1793px; }
+
+.flags-an { background-position: 0 -1969px; }
+
+.flags-ao { background-position: 0 -2542px; }
+
+.flags-ar { background-position: 0 -1694px; }
+
+.flags-as { background-position: 0 -154px; }
+
+.flags-at { background-position: 0 -2674px; }
+
+.flags-au { background-position: 0 -22px; }
+
+.flags-aw { background-position: 0 -1441px; }
+
+.flags-ax { background-position: 0 -55px; }
+
+.flags-az { background-position: 0 -759px; }
+
+.flags-ba { background-position: 0 -660px; }
+
+.flags-bb { background-position: 0 -792px; }
+
+.flags-bd { background-position: 0 -1705px; }
+
+.flags-be { background-position: 0 -2409px; }
+
+.flags-bf { background-position: 0 -1804px; }
+
+.flags-bg { background-position: 0 -2321px; }
+
+.flags-bh { background-position: 0 -2332px; }
+
+.flags-bi { background-position: 0 -11px; }
+
+.flags-bj { background-position: 0 -2013px; }
+
+.flags-bm { background-position: 0 -495px; }
+
+.flags-bn { background-position: 0 -264px; }
+
+.flags-bo { background-position: 0 -1749px; }
+
+.flags-br { background-position: 0 -671px; }
+
+.flags-bs { background-position: 0 -1419px; }
+
+.flags-bt { background-position: 0 -319px; }
+
+.flags-bv { background-position: 0 -1573px; }
+
+.flags-bw { background-position: 0 -2443px; }
+
+.flags-by { background-position: 0 -1540px; }
+
+.flags-bz { background-position: 0 -605px; }
+
+.flags-ca { background-position: 0 -352px; }
+
+.flags-catalonia { background-position: 0 -2685px; }
+
+.flags-cc { background-position: 0 -396px; }
+
+.flags-cd { background-position: 0 -1353px; }
+
+.flags-cf { background-position: 0 -473px; }
+
+.flags-cg { background-position: 0 -1463px; }
+
+.flags-ch { background-position: 0 -2729px; }
+
+.flags-ci { background-position: 0 -2343px; }
+
+.flags-ck { background-position: 0 -781px; }
+
+.flags-cl { background-position: 0 -2387px; }
+
+.flags-cm { background-position: 0 -1430px; }
+
+.flags-cn { background-position: 0 -2211px; }
+
+.flags-co { background-position: 0 -2035px; }
+
+.flags-cr { background-position: 0 -2123px; }
+
+.flags-cs { background-position: 0 -2465px; }
+
+.flags-cu { background-position: 0 -979px; }
+
+.flags-cv { background-position: 0 -1331px; }
+
+.flags-cx { background-position: 0 -528px; }
+
+.flags-cy { background-position: 0 -2553px; }
+
+.flags-cz { background-position: 0 -2134px; }
+
+.flags-de { background-position: 0 -1133px; }
+
+.flags-dj { background-position: 0 -880px; }
+
+.flags-dk { background-position: 0 -1848px; }
+
+.flags-dm { background-position: 0 -429px; }
+
+.flags-do { background-position: 0 -1650px; }
+
+.flags-dz { background-position: 0 -825px; }
+
+.flags-ec { background-position: 0 -1760px; }
+
+.flags-ee { background-position: 0 -2531px; }
+
+.flags-eg { background-position: 0 -2277px; }
+
+.flags-eh { background-position: 0 -1661px; }
+
+.flags-england { background-position: 0 -1815px; }
+
+.flags-er { background-position: 0 -110px; }
+
+.flags-es { background-position: 0 -2244px; }
+
+.flags-et { background-position: 0 -715px; }
+
+.flags-europeanunion { background-position: 0 -2101px; }
+
+.flags-fam { background-position: 0 -1276px; }
+
+.flags-fi { background-position: 0 -1947px; }
+
+.flags-fj { background-position: 0 -506px; }
+
+.flags-fk { background-position: 0 -143px; }
+
+.flags-fm { background-position: 0 -1078px; }
+
+.flags-fo { background-position: 0 -2156px; }
+
+.flags-fr { background-position: 0 -1144px; }
+
+.flags-ga { background-position: 0 -1958px; }
+
+.flags-gb { background-position: 0 -616px; }
+
+.flags-gd { background-position: 0 -297px; }
+
+.flags-ge { background-position: 0 -649px; }
+
+.flags-gf { background-position: 0 -1155px; }
+
+.flags-gh { background-position: 0 -1936px; }
+
+.flags-gi { background-position: 0 -2310px; }
+
+.flags-gl { background-position: 0 -2233px; }
+
+.flags-gm { background-position: 0 -1881px; }
+
+.flags-gn { background-position: 0 -2090px; }
+
+.flags-gp { background-position: 0 -1980px; }
+
+.flags-gq { background-position: 0 -1210px; }
+
+.flags-gr { background-position: 0 -1991px; }
+
+.flags-gs { background-position: 0 -330px; }
+
+.flags-gt { background-position: 0 -1892px; }
+
+.flags-gu { background-position: 0 -1639px; }
+
+.flags-gw { background-position: 0 -1507px; }
+
+.flags-gy { background-position: 0 -176px; }
+
+.flags-hk { background-position: 0 -1375px; }
+
+.flags-hm { background-position: 0 -33px; }
+
+.flags-hn { background-position: 0 -1221px; }
+
+.flags-hr { background-position: 0 -1452px; }
+
+.flags-ht { background-position: 0 -2002px; }
+
+.flags-hu { background-position: 0 -2487px; }
+
+.flags-id { background-position: 0 -2520px; }
+
+.flags-ie { background-position: 0 -2068px; }
+
+.flags-il { background-position: 0 -2509px; }
+
+.flags-in { background-position: 0 -1716px; }
+
+.flags-io { background-position: 0 -66px; }
+
+.flags-iq { background-position: 0 -1518px; }
+
+.flags-ir { background-position: 0 -1584px; }
+
+.flags-is { background-position: 0 -1287px; }
+
+.flags-it { background-position: 0 -2597px; }
+
+.flags-jm { background-position: 0 -308px; }
+
+.flags-jo { background-position: 0 -2189px; }
+
+.flags-jp { background-position: 0 -2608px; }
+
+.flags-ke { background-position: 0 -935px; }
+
+.flags-kg { background-position: 0 -1617px; }
+
+.flags-kh { background-position: 0 -1122px; }
+
+.flags-ki { background-position: 0 -88px; }
+
+.flags-km { background-position: 0 -836px; }
+
+.flags-kn { background-position: 0 -561px; }
+
+.flags-kp { background-position: 0 -1023px; }
+
+.flags-kr { background-position: 0 -726px; }
+
+.flags-kw { background-position: 0 -2024px; }
+
+.flags-ky { background-position: 0 -220px; }
+
+.flags-kz { background-position: 0 -451px; }
+
+.flags-la { background-position: 0 -990px; }
+
+.flags-lb { background-position: 0 -1496px; }
+
+.flags-lc { background-position: 0 -1474px; }
+
+.flags-li { background-position: 0 -1232px; }
+
+.flags-lk { background-position: 0 -385px; }
+
+.flags-lr { background-position: 0 -2266px; }
+
+.flags-ls { background-position: 0 -363px; }
+
+.flags-lt { background-position: 0 -1672px; }
+
+.flags-lu { background-position: 0 -2079px; }
+
+.flags-lv { background-position: 0 -2288px; }
+
+.flags-ly { background-position: 0 -2641px; }
+
+.flags-ma { background-position: 0 -2498px; }
+
+.flags-mc { background-position: 0 -2707px; }
+
+.flags-md { background-position: 0 -968px; }
+
+.flags-me { background-position: 0 -2420px; }
+
+.flags-mg { background-position: 0 -2354px; }
+
+.flags-mh { background-position: 0 -374px; }
+
+.flags-mk { background-position: 0 -44px; }
+
+.flags-ml { background-position: 0 -2167px; }
+
+.flags-mm { background-position: 0 -2046px; }
+
+.flags-mn { background-position: 0 -1903px; }
+
+.flags-mo { background-position: 0 -770px; }
+
+.flags-mp { background-position: 0 -638px; }
+
+.flags-mq { background-position: 0 -99px; }
+
+.flags-mr { background-position: 0 -946px; }
+
+.flags-ms { background-position: 0 -484px; }
+
+.flags-mt { background-position: 0 -2619px; }
+
+.flags-mu { background-position: 0 -1826px; }
+
+.flags-mv { background-position: 0 -1177px; }
+
+.flags-mw { background-position: 0 -1342px; }
+
+.flags-mx { background-position: 0 -858px; }
+
+.flags-my { background-position: 0 -902px; }
+
+.flags-mz { background-position: 0 -803px; }
+
+.flags-na { background-position: 0 -165px; }
+
+.flags-nc { background-position: 0 -748px; }
+
+.flags-ne { background-position: 0 -1243px; }
+
+.flags-nf { background-position: 0 -583px; }
+
+.flags-ng { background-position: 0 -2057px; }
+
+.flags-ni { background-position: 0 -1683px; }
+
+.flags-nl { background-position: 0 -2365px; }
+
+.flags-no { background-position: 0 -1595px; }
+
+.flags-np { background-position: 0 -2454px; }
+
+.flags-nr { background-position: 0 -1386px; }
+
+.flags-nu { background-position: 0 -891px; }
+
+.flags-nz { background-position: 0 -275px; }
+
+.flags-om { background-position: 0 -2112px; }
+
+.flags-pa { background-position: 0 -1485px; }
+
+.flags-pe { background-position: 0 -2696px; }
+
+.flags-pf { background-position: 0 -1782px; }
+
+.flags-pg { background-position: 0 -682px; }
+
+.flags-ph { background-position: 0 -1199px; }
+
+.flags-pk { background-position: 0 -957px; }
+
+.flags-pl { background-position: 0 -2718px; }
+
+.flags-pm { background-position: 0 0; }
+
+.flags-pn { background-position: 0 -77px; }
+
+.flags-pr { background-position: 0 -1034px; }
+
+.flags-ps { background-position: 0 -2222px; }
+
+.flags-pt { background-position: 0 -1045px; }
+
+.flags-pw { background-position: 0 -1111px; }
+
+.flags-py { background-position: 0 -2200px; }
+
+.flags-qa { background-position: 0 -2398px; }
+
+.flags-re { background-position: 0 -1166px; }
+
+.flags-ro { background-position: 0 -1859px; }
+
+.flags-rs { background-position: 0 -2575px; }
+
+.flags-ru { background-position: 0 -2630px; }
+
+.flags-rw { background-position: 0 -1265px; }
+
+.flags-sa { background-position: 0 -1089px; }
+
+.flags-sb { background-position: 0 -407px; }
+
+.flags-sc { background-position: 0 -539px; }
+
+.flags-scotland { background-position: 0 -132px; }
+
+.flags-sd { background-position: 0 -1914px; }
+
+.flags-se { background-position: 0 -1188px; }
+
+.flags-sg { background-position: 0 -2255px; }
+
+.flags-sh { background-position: 0 -187px; }
+
+.flags-si { background-position: 0 -1628px; }
+
+.flags-sj { background-position: 0 -1606px; }
+
+.flags-sk { background-position: 0 -1001px; }
+
+.flags-sl { background-position: 0 -2476px; }
+
+.flags-sm { background-position: 0 -1727px; }
+
+.flags-sn { background-position: 0 -1298px; }
+
+.flags-so { background-position: 0 -1397px; }
+
+.flags-sr { background-position: 0 -1562px; }
+
+.flags-st { background-position: 0 -814px; }
+
+.flags-sv { background-position: 0 -1738px; }
+
+.flags-sy { background-position: 0 -2586px; }
+
+.flags-sz { background-position: 0 -231px; }
+
+.flags-tc { background-position: 0 -418px; }
+
+.flags-td { background-position: 0 -924px; }
+
+.flags-tf { background-position: 0 -1408px; }
+
+.flags-tg { background-position: 0 -1012px; }
+
+.flags-th { background-position: 0 -2376px; }
+
+.flags-tj { background-position: 0 -1837px; }
+
+.flags-tk { background-position: 0 -286px; }
+
+.flags-tl { background-position: 0 -1551px; }
+
+.flags-tm { background-position: 0 -693px; }
+
+.flags-tn { background-position: 0 -1870px; }
+
+.flags-to { background-position: 0 -2564px; }
+
+.flags-tr { background-position: 0 -1925px; }
+
+.flags-tt { background-position: 0 -440px; }
+
+.flags-tv { background-position: 0 -1254px; }
+
+.flags-tw { background-position: 0 -2299px; }
+
+.flags-tz { background-position: 0 -242px; }
+
+.flags-ua { background-position: 0 -2432px; }
+
+.flags-ug { background-position: 0 -1320px; }
+
+.flags-uk { background-position: 0 -627px; }
+
+.flags-um { background-position: 0 -913px; }
+
+.flags-us { background-position: 0 -517px; }
+
+.flags-uy { background-position: 0 -1309px; }
+
+.flags-uz { background-position: 0 -1529px; }
+
+.flags-va { background-position: 0 -1067px; }
+
+.flags-vc { background-position: 0 -847px; }
+
+.flags-ve { background-position: 0 -1364px; }
+
+.flags-vg { background-position: 0 -341px; }
+
+.flags-vi { background-position: 0 -462px; }
+
+.flags-vn { background-position: 0 -2178px; }
+
+.flags-vu { background-position: 0 -572px; }
+
+.flags-wales { background-position: 0 -121px; }
+
+.flags-wf { background-position: 0 -1056px; }
+
+.flags-ws { background-position: 0 -2145px; }
+
+.flags-xa { background-position: 0 -1100px; }
+
+.flags-ye { background-position: 0 -2652px; }
+
+.flags-yt { background-position: 0 -704px; }
+
+.flags-za { background-position: 0 -253px; }
+
+.flags-zm { background-position: 0 -1771px; }
+
+.flags-zw { background-position: 0 -869px; }
+
+.boxhp-sprite, .hppage #header, #boxesHP #top-bar a#recentlyVisited.active .clock, #boxesHP #top-bar .hppage #recentlyVisited.active.divider .clock, .hppage #boxesHP #top-bar #recentlyVisited.active.divider .clock, #boxesHP #top-bar a#recentlyVisited:hover .clock, #boxesHP #top-bar .hppage #recentlyVisited.divider:hover .clock, .hppage #boxesHP #top-bar #recentlyVisited.divider:hover .clock, #boxesHP #top-bar a#frequentlyVisited.active .star, #boxesHP #top-bar .hppage #frequentlyVisited.active.divider .star, .hppage #boxesHP #top-bar #frequentlyVisited.active.divider .star, #boxesHP #top-bar a#frequentlyVisited:hover .star, #boxesHP #top-bar .hppage #frequentlyVisited.divider:hover .star, .hppage #boxesHP #top-bar #frequentlyVisited.divider:hover .star, #boxesHP .boxes-shadow, #boxesHP .remove, #boxesHP .remove:hover, #boxesHP .clock, #boxesHP .star { background: url('images/boxhp-s3f47d23012.png') no-repeat; }
+
+#main .search { min-width: 500px; }
+
+body { background-image: url("images/bg.png"); font-family: "Arial", sans-serif; overflow: hidden; }
+
+.pull-right { float: right; }
+
+.inline-block { display: inline-block; *display: inline; *zoom: 1;}
+
+.bold { font-weight: bold; }
+
+a, .hppage .divider { color: #f2f2f2; }
+
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+
+.search {
+    margin-top: 75px !important;
+}
+.search .text-holder {height: 21px;}
+.search .text {
+    border: none;
+}
+input {
+    margin: 0;
+}
+.magnifierHP {
+    width: 27px;
+    height: 32px;
+    background: url(/Images/abt/magnifierHp.png) no-repeat;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 10;
+    pointer-events: none;
+}
+.placeholder {
+    color: transparent;
+}
+
+.search-box-wrapper {position: relative;}
+.hpNewButtonAB {
+    font-weight: bold;
+    display: inline-block;
+    padding: 7px 31px 7px 10px;
+    height: 32px;
+    font-size: 13px;
+    line-height: 18px;
+    width: auto !important;
+    color: #f2f2f2;
+    text-align: center;
+    background: rgb(246,180,91); /* Old browsers */ /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(246,180,91)), color-stop(100%,rgb(226,122,47))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgb(246,180,91) 0%,rgb(226,122,47) 100%); /* Chrome10+,Safari5.1+ */ /* Opera 11.10+ */ /* IE10+ */
+    background: -webkit-linear-gradient(top, rgb(246,180,91) 0%, rgb(226,122,47) 100%);
+    background: linear-gradient(to bottom, rgb(246,180,91) 0%,rgb(226,122,47) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6b45b', endColorstr='#e27a2f',GradientType=0 ); /* IE6-9 */
+    border: none;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+}
+
+#boxesHP UL{
+    position: fixed;
+}
+
+.search .text-holder  {
+    border: 1px solid #081216;
+    border-bottom: 1px solid #533415;
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+.search-btn {
+    z-index: 9;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    border-left: 1px solid #081216 !important;
+}
+
+/* Homepage css overrides */
+.hppage #header { height: 32px; line-height: 32px; background-position: 0 -127px; font-size: 12px; background-repeat: repeat-x; border-bottom: 1px solid rgba(233, 233, 233, 0.5); }
+.hppage #header .row .lang-holder { margin: 0; text-align: right; width: auto; }
+.hppage #header .home { padding-right: 10px; background: 0; }
+.hppage #header #aSettingsURL { padding-right: 5px;}
+
+.hppage .hp-g-logo { margin-top: -50px !important; }
+.hppage.mysearch .hp-g-logo { background: url("/images/abt/bhp/exploreWyahoo.png") no-repeat scroll 0 0 transparent; margin-right: -147px; width: 131px;}
+
+.hppage .newlogo { background: url("/Images/SERP/avgLogoNew2.png"); background-repeat: no-repeat; width: 148px; height: 66px; padding: 0; margin-top: 0; }
+.hppage .text-holder { background: #ffffff; }
+.hppage #wrapper { margin: 0 auto -150px; }
+.hppage #push { height: 150px; }
+.hppage #footer { line-height: 23px; height: 23px; font-size: 10px; font-weight: bold; border-top: 1px solid #e7e7e7; color: #999999; }
+.hppage #footer a:nth-child(2), .hppage #footer .divider:nth-child(2) { margin-left: -5px; }
+.hppage #footer a, .hppage #footer .divider { color: #666666; }
+.hppage #footer .copy { color: #999999; font-size: 10px; }
+.hppage #footer #footer_inner { padding: 0 0 0 8px; margin: 0; }
+.hppage #main { padding-top: 135px; }
+.hppage .divider { padding-left: 5px; }
+.hppage #main .search { padding-top: 0; }
+.hppage ul#navlinks { margin-bottom: 10px; margin-top: 32px; text-align: left; min-width: 600px; margin-left: 40px; font-size: 14px; }
+.hppage ul#navlinks li { display: inline-block; margin-right: 60px; }
+.hppage ul#navlinks li a, .hppage ul#navlinks li .divider { color: #000000; }
+.hppage ul#navlinks li.active { font-weight: bold; }
+
+.hppage.box-hp-disabled #wrapper { margin: 0 auto -24px; }
+.hppage.box-hp-disabled #push { height: 24px; }
+.hppage.box-hp-bar-disabled #wrapper {margin: 0 auto -121px;}
+.hppage.box-hp-bar-disabled #push {margin: 0 auto -121px;}
+
+#weather-widget { float: left; margin-left: 8px; }
+#weather-widget input[type="text"] { background: #ffffff !important; border: 1px solid #d9d9d9; padding: 7px; font-weight: bold; font-size: 13px; width: 190px; margin-bottom: 0; margin-top: 1px; }
+#weather-widget img { vertical-align: middle; margin: 0 5px; }
+#weather-widget .icon { display: inline-block; width: 16px; height: 11px; line-height: 14px; vertical-align: text-top; background-repeat: no-repeat; margin: 0 5px; margin-top: 1px; }
+#weather-widget .btn { display: inline-block; margin: 0 0 0 2px; padding: 5px 12px; font-size: 14px; font-weight: bold; line-height: 20px; color: #ffffff; text-align: center; vertical-align: middle; cursor: pointer; background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #6d8492), color-stop(100%, #5b6e7a)); background: -webkit-linear-gradient(top, #6d8492, #5b6e7a); background: linear-gradient(top, #6d8492, #5b6e7a); border-radius: 2px; background-color: #6d8492; border: 1px solid #97a3ab; border-color: #97a3ab #7e8e98 #7e8e98; border-bottom-color: #8e9ba3; -webkit-appearance: button; }
+#weather-widget .tt-dropdown-menu { background: #ffffff; border: 1px solid #dedede; padding: 5px 7px 9px 7px; width: 190px; line-height: 21px; }
+#weather-widget .weather-loc-wrap { display: inline-block; position: relative; }
+#weather-widget .weather-desc { margin-left: 15px; }
+#weather-widget .tooltip { background: #f7f7f7; background-clip: padding-box; border: 1px solid #d7d7d7; position: absolute; left: 0; padding: 5px 8px; top: 0; margin-top: 35px; }
+#weather-widget .tooltip:before, #weather-widget .tooltip:after { content: ""; position: absolute; border-left: 10px solid transparent; border-right: 10px solid transparent; top: -15px; left: 12%; margin-left: -10px; }
+#weather-widget .tooltip:before { border-bottom: 10px solid #d7d7d7; margin-top: 5px; }
+#weather-widget .tooltip:after { border-bottom: 10px solid #f7f7f7; margin-top: 6px; z-index: 1; }
+#weather-widget .tooltip { display: none; width: 290px; }
+
+#boxesHP { width: 100%; display: none;}
+#boxesHP #top-bar { padding: 0 0 12px 10px; display: none;}
+#boxesHP #top-bar a, #boxesHP #top-bar .hppage .divider, .hppage #boxesHP #top-bar .divider { color: #1470cc; text-decoration: none; font-size: 12px; display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; }
+#boxesHP #top-bar a.active, #boxesHP #top-bar .hppage .active.divider, .hppage #boxesHP #top-bar .active.divider { text-shadow: 1px 1px 0 white; color: #4c4c4c; cursor: default; }
+#boxesHP #top-bar a#recentlyVisited.active .clock, #boxesHP #top-bar .hppage #recentlyVisited.active.divider .clock, .hppage #boxesHP #top-bar #recentlyVisited.active.divider .clock, #boxesHP #top-bar a#recentlyVisited:hover .clock, #boxesHP #top-bar .hppage #recentlyVisited.divider:hover .clock, .hppage #boxesHP #top-bar #recentlyVisited.divider:hover .clock { background-position: 0 0; }
+#boxesHP #top-bar a#frequentlyVisited.active .star, #boxesHP #top-bar .hppage #frequentlyVisited.active.divider .star, .hppage #boxesHP #top-bar #frequentlyVisited.active.divider .star, #boxesHP #top-bar a#frequentlyVisited:hover .star, #boxesHP #top-bar .hppage #frequentlyVisited.divider:hover .star, .hppage #boxesHP #top-bar #frequentlyVisited.divider:hover .star { background-position: 0 -44px; }
+#boxesHP #boxes-container { background: transparent; position: relative; }
+#boxesHP .boxes-shadow { position: absolute; left: 0; top: -1px; height: 5px; width: 100%; border-top: 1px solid #ffffff; background-position: 0 -120px; background-repeat: repeat-x; }
+#boxesHP ul { width: 100%; /*text-align: justify;*/ height: 95px; overflow: hidden; }
+#boxesHP ul:after { content: ''; display: inline-block; width: 100%; height: 0; font-size: 0; line-height: 0; }
+#boxesHP li { vertical-align: top; box-sizing: border-box; position: relative; width: 115px; height: 95px; line-height: 95px; text-align: center; margin-right: 5px; *font-size: 90px;}
+#boxesHP li a, #boxesHP li .hppage .divider, .hppage #boxesHP li .divider { background: #ffffff; display: block; height: 100%; width: 100%; }
+#boxesHP li a img, #boxesHP li .hppage .divider img, .hppage #boxesHP li .divider img { vertical-align: middle; position: relative; }
+#boxesHP li .sub-text { display: none; }
+#boxesHP li.sub-text-active img { top: -10px; }
+#boxesHP li.sub-text-active .sub-text { display: block; position: absolute; top: 11px; color: #4d4d4d; overflow: hidden; white-space: nowrap; overflow: hidden; -ms-text-overflow: ellipsis; -o-text-overflow: ellipsis; text-overflow: ellipsis; padding: 0 10px; width: 95px; font-size: 12px; }
+#boxesHP .icon { display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; line-height: 20px; vertical-align: middle; margin-right: 4px; height: 21px; width: 20px; }
+#boxesHP .remove { background-position: 0 -103px; background-repeat: no-repeat; width: 15px; height: 15px; margin: 4px 4px 0 0; }
+#boxesHP .remove:hover { background-position: 0 -86px; }
+#boxesHP .tileBar { position: absolute; top: 0; width: 115px; height: 24px; background: rgba(0, 0, 0, 0.6); }
+#boxesHP .clock { background-position: 0 -22px; background-repeat: no-repeat; }
+#boxesHP .star { background-position: 0 -65px; background-repeat: no-repeat; margin-left: 5px; }
+#boxesHP .facebook .facebook-bar { background: #3b5997; display: none; height: 24px; }
+#boxesHP .amazon .amazonImg { margin-top: 9px; }
+
+#nav {
+    font-size: 22px;
+     opacity: 0.4;
+    filter: alpha(opacity=40);
+    margin: 0;
+        vertical-align: middle;
+    line-height: normal;
+    clear: both;
+    position: fixed;
+	width: 100%;
+	float: left;
+	margin: 0 0 3em 0;
+	padding: 0;
+	list-style: none;
+	background-color: #F2F2F2;
+	border-bottom: 1px solid #ccc; 
+	border-top: 1px solid #ccc; }
+#nav li {
+    font-size: 22px;
+	float: right; }
+#nav li a {
+    font-size: 22px;
+	display: block;
+	padding: 8px 15px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #069;
+	border-right: 1px solid #ccc; }
+#nav li a:hover {
+    font-size: 22px;
+	color: #ccc;
+	background-color: #fff; }
+
+#nav:hover {
+    font-size: 22px;
+    opacity: 1.0;
+    filter: alpha(opacity=100);   
+}
+#links {
+font-size: 22px;
+    clear: both;
+	list-style: none;
+	background-color: #fcfcfc;
+	border: 1px solid #ccc;
+}
+
+#links li {
+    font-size: 22px;
+    float: left;
+}
+
+#links li a {
+    font-size: 22px;
+    	display: block;
+	padding: 8px 15px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #069;
+	border: 1px solid #ccc; }
+}
+
+#links li a:hover {
+    font-size: 22px;
+    color: #069;
+}
+#links li:hover {
+    font-size: 22px;
+    color: #ccf;
+    background-color: #ccf;
+}
+#footer {
+    font-size: 13px;
+    height: 30px;
+   width: 100%;
+    background-color: #ccf;
+    float:left;
+}
+#space {
+ width: 100%;
+    height: 16px;
+}
+.wrapper{
+    background-color: #E6E6E6;
+    width: 60%;
+ height: 540px;
+    margin:0 auto;
+}
+
+.lang2 #weather-widget .tooltip { width: 364px; }
+
+.lang2 #weather-widget .btn { width: 156px; }
+
+/* Fix for autocomplete dropdown*/
+.acp_ltr {width: auto !important;}
